@@ -13,11 +13,37 @@
     height: 900px;
 }
 .navbar {
-    background-color: #808080 !important;
+    background-color: dimgrey;
     padding: 38px 50px !important;
     border-radius: 0px 0px 20px 20px;
 }
-.bottom-bar {
-    padding: 120px 8px !important;
-    width: 20%;
+.navbar .collapse .btn {
+        color: rgb(73 210 157);
+        padding-left: 25px;
+}
+.navbar .collapse .form-control::placeholder{
+    color: rgb(128, 128, 128, 0.65);
+}
+.container .content-home {
+        padding: 130px 0px !important;
+    }
+.bottom-bar{
+   width:50%;
+  
+}
+.bottom-bar .bottom-bar__content .nav-link {
+        color: rgb(73 210 157);
+        
+}
+.img-home{
+    width: 100%;
+}
+
+.container1 .overlay-text {
+    padding-top: 100px;
+    margin-left: 320px;
+    padding-left: 430px;
+    padding-bottom: 15px;
+    color: rgb(175 100 237);
+    
 }
